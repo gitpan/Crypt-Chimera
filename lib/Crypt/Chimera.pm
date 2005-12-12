@@ -4,13 +4,13 @@ use strict;
 use warnings;
 use vars qw($VERSION);
 
-use Crypt::Chimera::Object.pm
-use Crypt::Chimera::Event.pm
-use Crypt::Chimera::World.pm
-use Crypt::Chimera::User.pm
-use Crypt::Chimera::Cracker.pm
+use Crypt::Chimera::Object;
+use Crypt::Chimera::Event;
+use Crypt::Chimera::World;
+use Crypt::Chimera::User;
+use Crypt::Chimera::Cracker;
 
-$VERSION = "1.00";
+$VERSION = "1.01";
 
 1;
 
